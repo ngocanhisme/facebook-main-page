@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    padding: 4px 15px;
+}
+.left-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 27.27%;
+}
+.middle-section {
+    width: 41.45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 27.27%;
+    min-width: 200px;
+}
+
+.fb-icon {
+    width: 40px;
+    margin-left: -6px;
+    margin-top: -1px;
+}
+.fb-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.search-icon {
+    width: 16px;
+    border-radius: 8px;
+    margin-left: 20px;
+    vertical-align: middle;
+    z-index: 1;
+}
+.search-bar {
+    width: 230px;
+    height: 38px;
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    text-indent: 30px;
+    margin-left: -26px;
+}
+.left-section button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.middle-section img {
+    width: 30px;
+}
+.middle-section button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    flex: 1;
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.middle-section .hamburger-button {
+    display: none;
+}
+.middle-section button:hover {
+    background-color: rgb(223, 223, 223);
+}
+.right-section img {
+    width: 20px;
+}
+.right-section button {
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(223, 223, 223);
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.right-section #minusone {
+    display: none;
+} 
+.right-section button:hover {
+    background-color: rgb(182, 181, 181);
+}
+.right-section .avatar {
+    width: 40px;
+    border-radius: 20px;
+    margin-left: -6px;
+    margin-top: -1px;
+}
+.header-tooltip,
+.stories-tooltip,
+.section-tooltip,
+.new-message-tooltip {
+    position: absolute;
+    bottom: -36px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    font-size: 13px;
+    white-space: nowrap;
+    vertical-align: top;
+    pointer-events: none;
+    z-index: 10;
+}
+.section-tooltip {
+    right: 0;
+}
+.new-message-tooltip {
+    bottom: 10px;
+    top: 10px;
+    right: 50px;
+}
+.middle-section button:hover .header-tooltip,
+.right-section button:hover .header-tooltip,
+.Arrow:hover .stories-tooltip,
+.contact-options button:hover .section-tooltip,
+.new-message-button:hover .new-message-tooltip,
+.specific-time:hover .header-tooltip, 
+.earth:hover .header-tooltip,
+.blue-tick:hover .header-tooltip,
+.react-icon:hover .header-tooltip {
+    opacity: 0.8;
+    transition-delay: 0.5s;
+}

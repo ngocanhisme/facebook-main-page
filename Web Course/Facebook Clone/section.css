@@ -1,0 +1,160 @@
+section {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 23.27%;
+    margin-left: auto;
+}
+section:hover {
+    overflow-y: auto;
+}
+.sponsored img {
+    width: 150px;
+    border-radius: 8px;
+    margin: 5px 10px;
+}
+.promotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.promotion p{
+    font-size: 14px;
+}
+.promotion:hover {
+    background-color: rgb(231, 231, 231);
+}
+.sponsored {
+    border-bottom: 2px gray solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px gray solid;
+}
+.contact-tool-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+    .contact-options {
+        padding-right: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 140px;
+    }
+    .contact-options button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 50%;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        background-color: none;
+        border: none;
+    }
+    .button1 img, .button2 img {
+        width: 15px;
+    }
+    .button3 img {
+        width: 34px;
+    }
+    .button1:hover .header-tooltip,
+    .button2:hover .header-tooltip,
+    .button3:hover .header-tooltip {
+        opacity: 0.7;
+        transition-delay: 0.5s;
+    }
+.contact-options button:hover {
+    background-color: rgb(206, 204, 204);
+}
+
+.users, .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Roboto, Arial;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.users:hover,
+.group:hover {
+    background-color: rgb(233, 233, 233);
+}
+.users img, .group img, .group-avatar {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.Group-conversations {
+    display: flex;
+    flex-direction: column;
+}
+.group-avatar {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.first img, .second img {
+    width: 26px;
+    border-radius: 13px;
+}
+.first {
+    position: absolute;
+    top: -1px;
+    right: -9px;
+}   
+.second {
+   position: absolute;
+   bottom: -5px;
+   left: -9px;
+}
+.active-light {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+
+.new-message-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+}
+.new-message-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+.new-message-button img {
+    width: 50px;
+    border-radius: 25px;
+    margin-left: -6px;
+    margin-top: -1px;
+}

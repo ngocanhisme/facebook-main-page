@@ -1,0 +1,90 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 1000px;
+    background-color: rgb(235, 235, 235);
+    padding-top: 60px;
+    font-family: Roboto, Arial;
+}
+@media (max-width: 1260px) {
+    .search-bar {
+        width: 0;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1230px) {
+    body article {
+        width: 47.07%;
+    }
+}
+@media (max-width: 1100px) {
+    body nav {
+        display: none;
+    }
+    body section {
+        width: 30.5%
+    }
+    body article {
+        width: 579px;
+        margin-right: 38.4%;
+    }
+    .middle-section .last-button {
+        display: none;
+    }
+    .middle-section .hamburger-button {
+        display: block;
+    }
+    .right-section #minusone {
+        display: block;
+    }
+    .right-section #zero {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    body article {
+        margin-left: 30px;
+    }
+}
+@media (min-width: 901px) and (max-width: 950px) {
+    body article {
+        width: 63%;
+    }
+
+}
+@media (max-width: 900px) {
+    body section {
+        display: none;
+    }
+    body article {
+        width: 579px;
+        margin: auto;
+    }
+}
+@media (max-width: 578px) {
+    body article {
+        width: 100%;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1186px), (max-width: 560px) {
+    article .stories {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .story-video-5 {
+        display: none;
+    }
+    article .stories>div {
+        height: 230px;
+    }
+}
+@media (max-width: 700px) {
+    header .middle-section {
+        display: none;
+    }
+}

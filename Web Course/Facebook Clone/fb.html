@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook-Clone</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="article.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <div class="left-section">
+        <button class="fb-button">
+          <a href="fb.html">
+            <img class="fb-icon" src="header images/fb icon.webp">
+          </a>
+        </button>
+        <img class="search-icon" src="header images/manifying glass icon.png">
+        <input class="search-bar" placeholder="Search on facebook">
+      </div>
+
+      <div class="middle-section">
+        <button style="border-bottom: 3px rgb(83, 83, 253) solid;">
+          <a href="fb.html">
+            <img src="header images/Home icon.png">
+            <div class="header-tooltip">Home</div>
+          </a>
+        </button>
+        <button>
+          <img src="header images/Friends request icon.png">
+          <div class="header-tooltip">Friends</div>
+        </button>
+        <button>
+          <img src="header images/Watch icon.png">
+          <div class="header-tooltip">Watch</div>
+        </button>
+        <button>
+          <img src="header images/marketplace.png">
+          <div class="header-tooltip">Market place</div>
+        </button>
+        <button class="last-button">
+          <img src="header images/Group icon.png">
+          <div class="header-tooltip">Group</div>
+        </button>
+        <button class="hamburger-button">
+          <img src="header images/hamburger icon.png">
+          <div class="header-tooltip">See more</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <button id="minusone">
+          <img src="header images/plus icon.jpg"></img>
+          <div class="header-tooltip">Create</div>
+        </button>
+        <button id="zero">
+          <img src="header images/Menu icon.webp">
+          <div class="header-tooltip">Menu</div>
+        </button>
+        <button>
+          <img src="header images/Messenger icon.png">
+          <div class="header-tooltip">Message</div>
+        </button>
+        <button class>
+          <img src="header images/notification icon.png" style="width: 30px">
+          <div style="position: absolute;
+                      top: -5px;
+                      right: -5px;
+                      width: 20px;
+                      height: 18px;
+                      padding-top: 2px;
+                      border-radius: 10px;
+                      text-align: center;
+                      background-color: rgb(226, 0, 0);
+                      border: none;
+                      color: white">2</div>
+          <div class="header-tooltip">Notification</div>
+        </button>
+        <button>
+          <img class="avatar" src="header images/Kyotaka.jpg">
+          <div class="header-tooltip">Account</div>
+        </button>
+      </div>
+    </header>
+
+      <!--Left navigation-->
+    <nav>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/Kyotaka.jpg">
+        </div>
+        <div>Ngoc Anh Le</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/friends icon.png">
+        </div>
+        <div>Friends</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/most recent.png">
+        </div>
+        <div>Most recent</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/group icon.jpg">
+        </div>
+        <div>Group</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/marketplaceicon.png">
+        </div>
+        <div>Market place</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/watch icon.png">
+        </div>
+        <div>Watch</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/memories icon.png">
+        </div>
+        <div>Memories</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/saved icon.png">
+        </div>
+        <div>Saved</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/pages icon.png">
+        </div>
+        <div>Pages</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/events icon.jpg">
+        </div>
+        <div>Events</div>
+      </div>
+      <div class="shortcut">
+        <div>
+          <img src="nav images/favorites icon.jpg">
+        </div>
+        <div>Favorites</div>
+      </div>
+      <div class="shortcut">
+        <button style="background-color: rgb(230, 229, 229); 
+                      width: 40px;
+                      height: 40px; 
+                      border-radius: 20px;
+                      border:none;
+                      margin-right: 10px;
+                      cursor: pointer;">
+          <img src="nav images/see more icon.jpg" style="width: 20px; margin-left: 4px; margin-top: 2px">
+        </button>
+        <div>See more</div>
+      </div>
+      <div style="width: 95%">
+        <p style="margin-top: 10px">
+          <a href="https://www.facebook.com/privacy/policy/?entry_point=comet_dropdown">Privacy</a>
+          &#183
+          <a href="https://www.facebook.com/policies_center/">Terms</a>
+          &#183
+          <a href="">Advertising</a>
+          &#183
+          <a href="https://www.facebook.com/help/568137493302217">Add choices</a>
+          &#183
+          <a href="">Cookies</a>
+          &#183
+        </p>
+        <p>
+          <span style="cursor: pointer;">More</span>
+          &#183
+          Meta &copy; 2023
+        </p>
+      </div>
+    </nav>
+
+    <!--Main page-->
+    <article>
+      <div class="stories">
+        <div class="story-video-1">
+          <div style="height: 50px;
+                      background-color: white;
+                      border-bottom-right-radius: 10px;
+                      border-bottom-left-radius: 10px;
+                      position: absolute;
+                      bottom: 0;
+                      right: 0;
+                      left: 0;
+                      text-align: center;
+          ">
+          <p style="margin-top: 25px; font-size: 14px;">Create story</p>  
+        </div>
+          <button style="height: 40px;
+                        width: 40px;
+                        border-radius: 20px;
+                        border: none;
+                        position: absolute;
+                        background-color: white;
+                        right: 34px;
+                        left: 34px;
+                        bottom: 15%;">
+            <img src="main images/add story icon.jpg" style="width: 36px;
+                                                            margin-left: -4px;
+                                                            margin-bottom: -2px">
+          </button>
+        </div>
+        <div class="story-video-2">
+          <span class="name-on-story">Doge</span>
+          <div class="avatar-on-story">
+            <img src="main images/avatar3.png">
+          </div>
+        </div>
+        <div class="story-video-3">
+          <span class="name-on-story">Kaguya Shinomiya</span>
+          <div class="avatar-on-story">
+            <img src="main images/avatar2.jpg">
+          </div>
+        </div>
+        <div class="story-video-4">
+          <span class="name-on-story">Itsuki Nakano</span>
+          <div class="avatar-on-story">
+            <img src="main images/avatar4.jpg">
+          </div>
+        </div>
+        <div class="story-video-5">
+          <span class="name-on-story">Ichika Amasawa</span>
+          <div class="avatar-on-story">
+            <img src="main images/avatar1.jpg">
+          </div>
+        </div>
+        <button class="Arrow">
+          <div class="arroww" style="position: relative; display: flex; justify-content: center; align-items: center;">
+            <img src="main images/right arrow.png" style="width: 20px; border-radius: 10px;">
+            <div class="stories-tooltip">See all tories</div>
+          </div>
+        </button>
+      </div>
+
+      <div class="postwriting-area">
+        <div class="posting-box">
+          <div class="avatar-in-post-box">
+            <img src="main images/Kyotaka1.jpg">
+          </div>
+          <div class="writing-bar">
+            <input type="text" placeholder="What's on your mind, Ngoc Anh">
+          </div>
+        </div>
+        <div class="three-buttons">
+          <button>
+            <div id="one">
+              <img style="width: 30px" src="main images/live video.jpg">
+            </div>
+            <div id="two">Live video</div>
+          </button>
+          <button>
+            <div id="one">
+              <img style="width: 30px" src="main images/photos icon.gif">
+            </div>
+            <div id="two">Photo/video</div>
+          </button>
+          <button>
+            <div id="one">
+              <img style="width: 30px" src="main images/smilingface.gif">
+            </div>
+            <div id="two">Feeling/activity</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="create-room">
+        <div class="create-room-button">
+          <div style="width: 40px; display: flex;">
+            <img style="width: 40px" src="main images/createroomiocn.webp">
+          </div>
+          <div style="font-size: 15px;
+                    color: rgb(88, 88, 233);
+                    font-weight: bold;
+                    padding-right: 10px;
+            ">
+          Create room
+          </div>
+        </div>
+      </div>
+    <!--Post 1-->
+      <div class="post">
+        <div class="head">
+          <div class="left-side">
+            <!--avatar-->
+            <div class="profile-avatar" style="cursor: pointer; position: relative;">
+              <img class="avatar1" src="main images/story2.jpg">
+              <div class="profile-tooltip">
+                <div class="upper-part">
+                  <div>
+                    <img class="avatar2" src="main images/story2.jpg">
+                  </div>
+                  <div class="profile-information" style="margin-left: 15px">
+                    <!--Author and verified tick-->
+                    <div style="font-size: 18px; display: flex; align-items: center;">
+                      <span class="author">Kaguya Shinomiya</span>
+                      <div class="blue-tick" style="margin-left: 5px; 
+                                              position: relative; 
+                                              display: flex; 
+                                              justify-content: center;">
+                        <img style="width: 20px" src="main images/blue tick icon.png">
+                        <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                      </div>
+                    </div>
+                    <!--More info-->
+                    <p style="color: gray;">Public figure</p>
+                    <p style="color: gray">This my official page</p>
+                    <p>
+                      <img style="width: 14px;" src="main images/mail-icon.png">
+                      <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                    </p>
+                    <p>
+                      <img style="width: 14px" src="main images/Globe_icon.png">
+                      <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="lower-part">
+                  <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                    <div>
+                      <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                    </div>
+                    <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+                  </button>
+                  <button style="margin: 0 8px">
+                    <img style="width: 25px" src="header images/Messenger icon.png">
+                  </button>
+                  <button>
+                    <img style="width: 25px" src="section images/options icon.png">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--author and time-->
+            <div class="author-and-time">
+              <!--author  +  blue-tick--> 
+              <div style="display: flex;
+                          justify-content: space-between; 
+                          align-items: center;">
+                <!--author-->
+                <div class="author" style="display: flex">
+                  Kaguya Shinomiya
+                  <div class="profile-tooltip">
+                    <div class="upper-part">
+                      <div>
+                        <img class="avatar2" src="main images/story2.jpg">
+                      </div>
+                      <div class="profile-information" style="margin-left: 15px">
+                        <div style="font-size: 18px; display: flex;">
+                          Kaguya Shinomiya
+                          <div class="blue-tick" style="margin-left: 5px; 
+                                              position: relative; 
+                                              display: flex; 
+                                              justify-content: center;">
+                            <img style="width: 20px" src="main images/blue tick icon.png">
+                            <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                          </div>
+                        </div>
+                        <p style="color: gray;">Public figure</p>
+                        <p style="color: gray">This my official page</p>
+                        <p>
+                          <img style="width: 14px;" src="main images/mail-icon.png">
+                          <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                        </p>
+                        <p>
+                          <img style="width: 14px" src="main images/Globe_icon.png">
+                          <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="lower-part">
+                      <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                        <div>
+                          <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                        </div>
+                        <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+                      </button>
+                      <button style="margin: 0 8px">
+                        <img style="width: 25px" src="header images/Messenger icon.png">
+                      </button>
+                      <button>
+                        <img style="width: 25px" src="section images/options icon.png">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--blue-tick-->
+                <div class="blue-tick" style="margin-left: 5px; position: relative; 
+                                              display: flex; 
+                                              justify-content: center;">
+                  <img style="width: 14px" src="main images/blue tick icon.png">
+                  <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                </div>
+              </div>
+              <!--time  +  earth-->
+              <div class="time-and-earth" style="display: flex;">
+                <!--time-->
+                <div class="specific-time" style="position: relative;
+                                                  display: flex;
+                                                  justify-content: center;">
+                  <span class="timeee" style="cursor: pointer">30m</span>
+                    &#8202 &#183 &#8202
+                  <div class="header-tooltip">Friday, February 24th, 2023 at 2:53 PM</div> 
+                </div>
+                <!--earth-->
+                <div class="earth" style="position: relative;
+                                          display: flex;
+                                          justify-content: center;">
+                  <img src="main images/earth icon.jpg">
+                  <div class="header-tooltip">Public</div> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <button class="button4">
+              <img src="section images/options icon.png">
+            </button>
+            <button class="button5">
+              <img src="main images/X icon.webp">
+            </button>
+          </div>
+        </div>
+
+        <div class="writing">
+          He is a 9 but he's dumb...
+          <span class="See-more-infor" style="color: black; cursor: pointer;">
+            <strong>See more</strong>
+          </span>
+          <div>
+            <a style="color: blue;" href="" target="_blank">#Trending</a>
+            <a style="color: blue;" href="" target="_blank">#Anime</a>
+            <a style="color: blue;" href="" target="_blank">#Cutegirls</a>
+          </div>
+        </div>
+        <div class="post-image">
+          <img src="main images/story3.jpg" style="width: 100%">
+        </div>
+
+        <div class="stats">
+          <div class="react-stat">
+            <!--Tooltip-->
+            <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+              <img style="width: 22px; cursor: pointer;" src="main images/like icon.jpg">
+              <div class="header-tooltip">
+                <p style="margin-bottom: 10px;">Liked</p>
+                <div>Ngoc Anh Le</div>
+                <div>Ngoc An Le</div>
+                <div>Oanh Le</div>
+              </div>
+            </div>
+            <!--Tooltip-->
+            <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+              <img style="width: 24px; margin-left: -6px; cursor: pointer;"src="main images/heart icon.png">
+              <div class="header-tooltip">
+                <p style="margin-bottom: 10px;">Haha</p>
+                <div>Ngoc Anh Le</div>
+                <div>Ngoc An Le</div>
+                <div>Oanh Le</div>
+              </div>
+            </div>
+            <!--Tooltip-->
+            <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+              <span class="reacts" style="color:rgb(117, 117, 117); margin-left: 5px; cursor: pointer;">4.6K</span>
+              <div class="header-tooltip" style="font-weight: 100;">
+                <div>Ngoc Anh Le</div>
+                <div>Ngoc An Le</div>
+                <div>Oanh Le</div>
+                <div>Kim Chi</div>
+                <div>Le Vo Ha My</div>
+                <div>Le Ngoc Danh</div>
+                <div>Nguyen Phung Chau</div>
+                <div>The Rock...more</div>
+              </div>
+            </div>
+          </div>
+          <!--Comment and share stats-->
+          <div style="display: flex">
+            <div class="react-icon" style="position: relative">
+              <span class="comments" style="color:rgb(117, 117, 117); cursor: pointer;"> 330 comments</span>
+              <div class="header-tooltip" style="font-weight: 100;">
+                <div>Ngoc Anh Le</div>
+                <div>Ngoc An Le</div>
+                <div>Oanh Le</div>
+                <div>Kim Chi</div>
+                <div>Le Vo Ha My</div>
+                <div>Le Ngoc Danh</div>
+                <div>Nguyen Phung Chau</div>
+                <div>The Rock...more</div>
+              </div>
+            </div>
+
+            <div class="react-icon" style="position: relative">
+              <span class="shares" style="color:rgb(117, 117, 117); margin-left: 8px; cursor: pointer;"> 20 shares</span>
+              <div class="header-tooltip" style="font-weight: 100;">
+                <div>Ngoc Anh Le</div>
+                <div>Ngoc An Le</div>
+                <div>Oanh Le</div>
+                <div>Kim Chi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="react-comment-share">
+          <button class="like-button">
+            <div id="one">
+              <img style="width: 30px" src="main images/like.png">
+            </div>
+            <div id="two" style="position: relative; display: flex; justify-content: center;">Like
+              <div class="react-tooltip">
+                <div style="position: relative">
+                  <img src="main images/like icon.jpg">
+                  <div class="header-tooltip">Like</div>
+                </div>
+                <div style="position: relative">
+                  <img src="main images/haha emoji.png">
+                  <div class="header-tooltip">Haha</div>
+                </div>
+                <div style="position: relative">
+                  <img src="main images/care emoji.jpg">
+                  <div class="header-tooltip">Care</div>
+                </div>
+                <div style="position: relative">
+                  <img src="main images/wow emoji.png">
+                  <div class="header-tooltip">Wow</div>
+                </div>
+                <div style="position: relative">
+                  <img src="main images/sad icon.webp">
+                  <div class="header-tooltip">Sad</div>
+                </div>
+                <div style="position: relative">
+                  <img src="main images/angry emoji.jpg">
+                  <div class="header-tooltip">Angry</div>
+                </div>
+              </div>
+            </div>
+          </button>
+          <button>
+            <div id="one">
+              <img style="width: 30px" src="main images/comment.png">
+            </div>
+            <div id="two">Comment</div>
+          </button>
+          <button>
+            <div id="one">
+              <img style="width: 30px" src="main images/share.png">
+            </div>
+            <div id="two">Share</div>
+          </button>
+        </div>
+      </div>
+
+    <!--Post 2-->
+    <div class="post">
+      <div class="head">
+        <div class="left-side">
+          <!--avatar-->
+          <div class="profile-avatar" style="cursor: pointer; position: relative;">
+            <img class="avatar1" src="main images/story2.jpg">
+            <div class="profile-tooltip">
+              <div class="upper-part">
+                <div>
+                  <img class="avatar2" src="main images/story2.jpg">
+                </div>
+                <div class="profile-information" style="margin-left: 15px">
+                  <!--Author and verified tick-->
+                  <div style="font-size: 18px; display: flex; align-items: center;">
+                    <span class="author">Kaguya Shinomiya</span>
+                    <div class="blue-tick" style="margin-left: 5px; 
+                                            position: relative; 
+                                            display: flex; 
+                                            justify-content: center;">
+                      <img style="width: 20px" src="main images/blue tick icon.png">
+                      <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                    </div>
+                  </div>
+                  <!--More info-->
+                  <p style="color: gray;">Public figure</p>
+                  <p style="color: gray">This my official page</p>
+                  <p>
+                    <img style="width: 14px;" src="main images/mail-icon.png">
+                    <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                  </p>
+                  <p>
+                    <img style="width: 14px" src="main images/Globe_icon.png">
+                    <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                  </p>
+                </div>
+              </div>
+              <div class="lower-part">
+                <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                  <div>
+                    <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                  </div>
+                  <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+                </button>
+                <button style="margin: 0 8px">
+                  <img style="width: 25px" src="header images/Messenger icon.png">
+                </button>
+                <button>
+                  <img style="width: 25px" src="section images/options icon.png">
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--author and time-->
+          <div class="author-and-time">
+            <!--author  +  blue-tick--> 
+            <div style="display: flex;
+                        justify-content: space-between; 
+                        align-items: center;">
+              <!--author-->
+              <div class="author" style="display: flex">
+                Kaguya Shinomiya
+                <div class="profile-tooltip">
+                  <div class="upper-part">
+                    <div>
+                      <img class="avatar2" src="main images/story2.jpg">
+                    </div>
+                    <div class="profile-information" style="margin-left: 15px">
+                      <div style="font-size: 18px; display: flex;">
+                        Kaguya Shinomiya
+                        <div class="blue-tick" style="margin-left: 5px; 
+                                            position: relative; 
+                                            display: flex; 
+                                            justify-content: center;">
+                          <img style="width: 20px" src="main images/blue tick icon.png">
+                          <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                        </div>
+                      </div>
+                      <p style="color: gray;">Public figure</p>
+                      <p style="color: gray">This my official page</p>
+                      <p>
+                        <img style="width: 14px;" src="main images/mail-icon.png">
+                        <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                      </p>
+                      <p>
+                        <img style="width: 14px" src="main images/Globe_icon.png">
+                        <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="lower-part">
+                    <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                      <div>
+                        <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                      </div>
+                      <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+                    </button>
+                    <button style="margin: 0 8px">
+                      <img style="width: 25px" src="header images/Messenger icon.png">
+                    </button>
+                    <button>
+                      <img style="width: 25px" src="section images/options icon.png">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!--blue-tick-->
+              <div class="blue-tick" style="margin-left: 5px; position: relative; 
+                                            display: flex; 
+                                            justify-content: center;">
+                <img style="width: 14px" src="main images/blue tick icon.png">
+                <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+              </div>
+            </div>
+            <!--time  +  earth-->
+            <div class="time-and-earth" style="display: flex;">
+              <!--time-->
+              <div class="specific-time" style="position: relative;
+                                                display: flex;
+                                                justify-content: center;">
+                <span class="timeee" style="cursor: pointer">30m</span>
+                  &#8202 &#183 &#8202
+                <div class="header-tooltip">Friday, February 24th, 2023 at 2:53 PM</div> 
+              </div>
+              <!--earth-->
+              <div class="earth" style="position: relative;
+                                        display: flex;
+                                        justify-content: center;">
+                <img src="main images/earth icon.jpg">
+                <div class="header-tooltip">Public</div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <button class="button4">
+            <img src="section images/options icon.png">
+          </button>
+          <button class="button5">
+            <img src="main images/X icon.webp">
+          </button>
+        </div>
+      </div>
+
+      <div class="writing">
+        He is a 9 but he's dumb...
+        <span class="See-more-infor" style="color: black; cursor: pointer;">
+          <strong>See more</strong>
+        </span>
+        <div>
+          <a style="color: blue;" href="" target="_blank">#Trending</a>
+          <a style="color: blue;" href="" target="_blank">#Anime</a>
+          <a style="color: blue;" href="" target="_blank">#Cutegirls</a>
+        </div>
+      </div>
+      <div class="post-image">
+        <img src="main images/story3.jpg" style="width: 100%">
+      </div>
+
+      <div class="stats">
+        <div class="react-stat">
+          <!--Tooltip-->
+          <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+            <img style="width: 22px; cursor: pointer;" src="main images/like icon.jpg">
+            <div class="header-tooltip">
+              <p style="margin-bottom: 10px;">Liked</p>
+              <div>Ngoc Anh Le</div>
+              <div>Ngoc An Le</div>
+              <div>Oanh Le</div>
+            </div>
+          </div>
+          <!--Tooltip-->
+          <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+            <img style="width: 24px; margin-left: -6px; cursor: pointer;"src="main images/heart icon.png">
+            <div class="header-tooltip">
+              <p style="margin-bottom: 10px;">Haha</p>
+              <div>Ngoc Anh Le</div>
+              <div>Ngoc An Le</div>
+              <div>Oanh Le</div>
+            </div>
+          </div>
+          <!--Tooltip-->
+          <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+            <span class="reacts" style="color:rgb(117, 117, 117); margin-left: 5px; cursor: pointer;">4.6K</span>
+            <div class="header-tooltip" style="font-weight: 100;">
+              <div>Ngoc Anh Le</div>
+              <div>Ngoc An Le</div>
+              <div>Oanh Le</div>
+              <div>Kim Chi</div>
+              <div>Le Vo Ha My</div>
+              <div>Le Ngoc Danh</div>
+              <div>Nguyen Phung Chau</div>
+              <div>The Rock...more</div>
+            </div>
+          </div>
+        </div>
+        <!--Comment and share stats-->
+        <div style="display: flex">
+          <div class="react-icon" style="position: relative">
+            <span class="comments" style="color:rgb(117, 117, 117); cursor: pointer;"> 330 comments</span>
+            <div class="header-tooltip" style="font-weight: 100;">
+              <div>Ngoc Anh Le</div>
+              <div>Ngoc An Le</div>
+              <div>Oanh Le</div>
+              <div>Kim Chi</div>
+              <div>Le Vo Ha My</div>
+              <div>Le Ngoc Danh</div>
+              <div>Nguyen Phung Chau</div>
+              <div>The Rock...more</div>
+            </div>
+          </div>
+
+          <div class="react-icon" style="position: relative">
+            <span class="shares" style="color:rgb(117, 117, 117); margin-left: 8px; cursor: pointer;"> 20 shares</span>
+            <div class="header-tooltip" style="font-weight: 100;">
+              <div>Ngoc Anh Le</div>
+              <div>Ngoc An Le</div>
+              <div>Oanh Le</div>
+              <div>Kim Chi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="react-comment-share">
+        <button class="like-button">
+          <div id="one">
+            <img style="width: 30px" src="main images/like.png">
+          </div>
+          <div id="two" style="position: relative; display: flex; justify-content: center;">Like
+            <div class="react-tooltip">
+              <div style="position: relative">
+                <img src="main images/like icon.jpg">
+                <div class="header-tooltip">Like</div>
+              </div>
+              <div style="position: relative">
+                <img src="main images/haha emoji.png">
+                <div class="header-tooltip">Haha</div>
+              </div>
+              <div style="position: relative">
+                <img src="main images/care emoji.jpg">
+                <div class="header-tooltip">Care</div>
+              </div>
+              <div style="position: relative">
+                <img src="main images/wow emoji.png">
+                <div class="header-tooltip">Wow</div>
+              </div>
+              <div style="position: relative">
+                <img src="main images/sad icon.webp">
+                <div class="header-tooltip">Sad</div>
+              </div>
+              <div style="position: relative">
+                <img src="main images/angry emoji.jpg">
+                <div class="header-tooltip">Angry</div>
+              </div>
+            </div>
+          </div>
+        </button>
+        <button>
+          <div id="one">
+            <img style="width: 30px" src="main images/comment.png">
+          </div>
+          <div id="two">Comment</div>
+        </button>
+        <button>
+          <div id="one">
+            <img style="width: 30px" src="main images/share.png">
+          </div>
+          <div id="two">Share</div>
+        </button>
+      </div>
+    </div>
+
+  <!--Post 3-->
+  <div class="post">
+    <div class="head">
+      <div class="left-side">
+        <!--avatar-->
+        <div class="profile-avatar" style="cursor: pointer; position: relative;">
+          <img class="avatar1" src="main images/story2.jpg">
+          <div class="profile-tooltip">
+            <div class="upper-part">
+              <div>
+                <img class="avatar2" src="main images/story2.jpg">
+              </div>
+              <div class="profile-information" style="margin-left: 15px">
+                <!--Author and verified tick-->
+                <div style="font-size: 18px; display: flex; align-items: center;">
+                  <span class="author">Kaguya Shinomiya</span>
+                  <div class="blue-tick" style="margin-left: 5px; 
+                                          position: relative; 
+                                          display: flex; 
+                                          justify-content: center;">
+                    <img style="width: 20px" src="main images/blue tick icon.png">
+                    <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                  </div>
+                </div>
+                <!--More info-->
+                <p style="color: gray;">Public figure</p>
+                <p style="color: gray">This my official page</p>
+                <p>
+                  <img style="width: 14px;" src="main images/mail-icon.png">
+                  <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                </p>
+                <p>
+                  <img style="width: 14px" src="main images/Globe_icon.png">
+                  <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                </p>
+              </div>
+            </div>
+            <div class="lower-part">
+              <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                <div>
+                  <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                </div>
+                <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+              </button>
+              <button style="margin: 0 8px">
+                <img style="width: 25px" src="header images/Messenger icon.png">
+              </button>
+              <button>
+                <img style="width: 25px" src="section images/options icon.png">
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--author and time-->
+        <div class="author-and-time">
+          <!--author  +  blue-tick--> 
+          <div style="display: flex;
+                      justify-content: space-between; 
+                      align-items: center;">
+            <!--author-->
+            <div class="author" style="display: flex">
+              Kaguya Shinomiya
+              <div class="profile-tooltip">
+                <div class="upper-part">
+                  <div>
+                    <img class="avatar2" src="main images/story2.jpg">
+                  </div>
+                  <div class="profile-information" style="margin-left: 15px">
+                    <div style="font-size: 18px; display: flex;">
+                      Kaguya Shinomiya
+                      <div class="blue-tick" style="margin-left: 5px; 
+                                          position: relative; 
+                                          display: flex; 
+                                          justify-content: center;">
+                        <img style="width: 20px" src="main images/blue tick icon.png">
+                        <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+                      </div>
+                    </div>
+                    <p style="color: gray;">Public figure</p>
+                    <p style="color: gray">This my official page</p>
+                    <p>
+                      <img style="width: 14px;" src="main images/mail-icon.png">
+                      <a href="https://www.instagram.com/lenguyenngocanh88/" target="_blank">Instagram</a>
+                    </p>
+                    <p>
+                      <img style="width: 14px" src="main images/Globe_icon.png">
+                      <a href="https://www.youtube.com/channel/UCv3XoUONTQW3I5sX6iVnNSQ" target="_blank">Subscribe to my youtube</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="lower-part">
+                  <button style="padding: 0 90px; background-color: rgb(224, 255, 255);">
+                    <div>
+                      <img style="width: 30px" src="main images/blue_like_icon-removebg-preview.png">
+                    </div>
+                    <div style="color: rgb(72, 72, 243); font-weight: bold;">Liked</div>
+                  </button>
+                  <button style="margin: 0 8px">
+                    <img style="width: 25px" src="header images/Messenger icon.png">
+                  </button>
+                  <button>
+                    <img style="width: 25px" src="section images/options icon.png">
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!--blue-tick-->
+            <div class="blue-tick" style="margin-left: 5px; position: relative; 
+                                          display: flex; 
+                                          justify-content: center;">
+              <img style="width: 14px" src="main images/blue tick icon.png">
+              <div class="header-tooltip">Facebook comfirmed this profile is authentic</div> 
+            </div>
+          </div>
+          <!--time  +  earth-->
+          <div class="time-and-earth" style="display: flex;">
+            <!--time-->
+            <div class="specific-time" style="position: relative;
+                                              display: flex;
+                                              justify-content: center;">
+              <span class="timeee" style="cursor: pointer">30m</span>
+                &#8202 &#183 &#8202
+              <div class="header-tooltip">Friday, February 24th, 2023 at 2:53 PM</div> 
+            </div>
+            <!--earth-->
+            <div class="earth" style="position: relative;
+                                      display: flex;
+                                      justify-content: center;">
+              <img src="main images/earth icon.jpg">
+              <div class="header-tooltip">Public</div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <button class="button4">
+          <img src="section images/options icon.png">
+        </button>
+        <button class="button5">
+          <img src="main images/X icon.webp">
+        </button>
+      </div>
+    </div>
+
+    <div class="writing">
+      He is a 9 but he's dumb...
+      <span class="See-more-infor" style="color: black; cursor: pointer;">
+        <strong>See more</strong>
+      </span>
+      <div>
+        <a style="color: blue;" href="" target="_blank">#Trending</a>
+        <a style="color: blue;" href="" target="_blank">#Anime</a>
+        <a style="color: blue;" href="" target="_blank">#Cutegirls</a>
+      </div>
+    </div>
+    <div class="post-image">
+      <img src="main images/story3.jpg" style="width: 100%">
+    </div>
+
+    <div class="stats">
+      <div class="react-stat">
+        <!--Tooltip-->
+        <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+          <img style="width: 22px; cursor: pointer;" src="main images/like icon.jpg">
+          <div class="header-tooltip">
+            <p style="margin-bottom: 10px;">Liked</p>
+            <div>Ngoc Anh Le</div>
+            <div>Ngoc An Le</div>
+            <div>Oanh Le</div>
+          </div>
+        </div>
+        <!--Tooltip-->
+        <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+          <img style="width: 24px; margin-left: -6px; cursor: pointer;"src="main images/heart icon.png">
+          <div class="header-tooltip">
+            <p style="margin-bottom: 10px;">Haha</p>
+            <div>Ngoc Anh Le</div>
+            <div>Ngoc An Le</div>
+            <div>Oanh Le</div>
+          </div>
+        </div>
+        <!--Tooltip-->
+        <div class="react-icon" style="display: flex; align-items: center; position: relative;">
+          <span class="reacts" style="color:rgb(117, 117, 117); margin-left: 5px; cursor: pointer;">4.6K</span>
+          <div class="header-tooltip" style="font-weight: 100;">
+            <div>Ngoc Anh Le</div>
+            <div>Ngoc An Le</div>
+            <div>Oanh Le</div>
+            <div>Kim Chi</div>
+            <div>Le Vo Ha My</div>
+            <div>Le Ngoc Danh</div>
+            <div>Nguyen Phung Chau</div>
+            <div>The Rock...more</div>
+          </div>
+        </div>
+      </div>
+      <!--Comment and share stats-->
+      <div style="display: flex">
+        <div class="react-icon" style="position: relative">
+          <span class="comments" style="color:rgb(117, 117, 117); cursor: pointer;"> 330 comments</span>
+          <div class="header-tooltip" style="font-weight: 100;">
+            <div>Ngoc Anh Le</div>
+            <div>Ngoc An Le</div>
+            <div>Oanh Le</div>
+            <div>Kim Chi</div>
+            <div>Le Vo Ha My</div>
+            <div>Le Ngoc Danh</div>
+            <div>Nguyen Phung Chau</div>
+            <div>The Rock...more</div>
+          </div>
+        </div>
+
+        <div class="react-icon" style="position: relative">
+          <span class="shares" style="color:rgb(117, 117, 117); margin-left: 8px; cursor: pointer;"> 20 shares</span>
+          <div class="header-tooltip" style="font-weight: 100;">
+            <div>Ngoc Anh Le</div>
+            <div>Ngoc An Le</div>
+            <div>Oanh Le</div>
+            <div>Kim Chi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="react-comment-share">
+      <button class="like-button">
+        <div id="one">
+          <img style="width: 30px" src="main images/like.png">
+        </div>
+        <div id="two" style="position: relative; display: flex; justify-content: center;">Like
+          <div class="react-tooltip">
+            <div style="position: relative">
+              <img src="main images/like icon.jpg">
+              <div class="header-tooltip">Like</div>
+            </div>
+            <div style="position: relative">
+              <img src="main images/haha emoji.png">
+              <div class="header-tooltip">Haha</div>
+            </div>
+            <div style="position: relative">
+              <img src="main images/care emoji.jpg">
+              <div class="header-tooltip">Care</div>
+            </div>
+            <div style="position: relative">
+              <img src="main images/wow emoji.png">
+              <div class="header-tooltip">Wow</div>
+            </div>
+            <div style="position: relative">
+              <img src="main images/sad icon.webp">
+              <div class="header-tooltip">Sad</div>
+            </div>
+            <div style="position: relative">
+              <img src="main images/angry emoji.jpg">
+              <div class="header-tooltip">Angry</div>
+            </div>
+          </div>
+        </div>
+      </button>
+      <button>
+        <div id="one">
+          <img style="width: 30px" src="main images/comment.png">
+        </div>
+        <div id="two">Comment</div>
+      </button>
+      <button>
+        <div id="one">
+          <img style="width: 30px" src="main images/share.png">
+        </div>
+        <div id="two">Share</div>
+      </button>
+    </div>
+  </div>
+    </article>
+
+    <!--Right navigation-->
+    <section>
+      <div class="sponsored">
+        <div style="font-size: 20px; margin-left: 10px">
+          <strong>Sponsored</strong>
+        </div>
+        <div class="promotion">
+          <img src="section images/shopee.jpg">
+          <div>
+            <p>Shopee</p>
+            <p>Shopee.vn</p>
+          </div>
+        </div>
+        <div class="promotion">
+          <img src="section images/amazon.jpeg">
+          <div>
+            <p>CERAVE OFFICIAL SHOP</p>
+            <p>Amazon.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Contacts">
+        <div class="contact-tool-bar">
+          <div style="font-size: 20px; margin-left: 10px">
+            <strong>Contacts</strong>
+          </div>
+          <div class="contact-options">
+            <button class="button1">
+              <img src="section images/new call icon.png">
+              <div class="section-tooltip">New call</div>
+            </button>
+            <button class="button2">
+              <img src="section images/manifying glass icon.png">
+              <div class="section-tooltip">Search by name or group</div>
+            </button>
+            <button class="button3">
+              <img src="section images/options icon.png">
+              <div class="section-tooltip">Options</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 1</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 2</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 3</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 4</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 5</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 6</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 7</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 8</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 9</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 10</div>
+        </div>
+        <div class="users">
+          <div>
+            <img src="section images/Kyotaka.jpg">
+          </div>
+          <div>Ngoc An Le 11</div>
+        </div>
+      </div>
+
+      <div class="Group conversations">
+        <div style="font-size: 20px; margin-left: 10px; padding-top: 10px;">
+          <strong>Group conversations</strong>
+        </div>
+        <div class="group">
+          <div class="group-avatar">
+            <div class="first">
+              <img src="section images/Dodge.jpg">
+            </div>
+            <div class="second">
+              <img src="section images/Kyotaka.jpg">
+            </div>
+            <div class="active-light" style="background-color: rgb(1, 177, 1);
+                                            width: 6px;
+                                            height: 6px;
+                                            border: 2px white solid;
+                                            border-radius: 4px;"></div>
+          </div>
+          <div>Fire Camp</div>
+        </div>
+        <div class="group">
+          <div>
+            <img src="section images/Dodge.jpg">
+          </div>
+          <div>Anime world</div>
+        </div>
+        <div class="group">
+          <div>
+            <img src="section images/Dodge.jpg">
+          </div>
+          <div>Family</div>
+        </div>
+        <div class="group">
+          <button style="height: 40px;
+                      width: 40px; 
+                      border-radius: 20px; 
+                      background-color: rgb(230, 230, 230);
+                      margin-left: 10px;
+                      margin-right: 10px;
+                      border: none;
+                      ">
+            <img style="width: 25px; margin-bottom: -2px; margin-left: 2px;" src="section images/plus icon.png">
+        </button>
+          <div>Create new group</div>
+        </div>
+      </div>
+    </section>
+    <button class="new-message-button">
+      <img src="section images/new-message-iconn.png">
+      <div class="new-message-tooltip">New message</div>
+    </button>
+
+  </body>
+</html>

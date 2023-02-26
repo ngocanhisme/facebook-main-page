@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 60px;
+    overflow-y: hidden;
+    padding-bottom: 100px;
+    width: 23.27%;
+}
+nav:hover {
+    overflow-y: scroll;
+}
+.shortcut {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: Roboto, Arial;
+    border-radius: 4px;
+}
+.shortcut:hover {
+    background-color: rgb(228, 228, 228);
+}
+nav img {
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+a, nav p {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}

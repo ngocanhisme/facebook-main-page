@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+
+        <style>
+            .discovery {
+                display: inline-block;
+            }
+            .images {
+                margin-right: 10px;
+            }
+            .profile {
+                width: 200px;
+            }
+            .button-follow, .profile, .images {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .avatar {
+                width: 70px;
+                object-fit: cover;
+                border-radius: 35px;
+            }
+            p {
+                font-family: Roboto, Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .name {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            .nickname, .popularity {
+                font-size: 15px;
+                opacity: 0.7;
+                margin-bottom: 10px;
+            }
+            button {
+                font-family: Roboto, Arial;
+                background-color: rgb(27, 116, 228);
+                border: none;
+                color: white;
+                font-size: 18px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 8px;
+                padding-left: 8px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                margin-right: 5px;
+            }
+            button:hover {
+                opacity: 0.7;
+            }
+            .first-profile, .second-profile, .third-profile {
+                cursor: pointer;
+            }
+            .first-profile:hover, .second-profile:hover, .third-profile:hover {
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+            }
+        </style>
+    </head>
+    <body>
+        <div class="discovery">
+            <div class="first-profile">
+                <div class="images">
+                    <img class="avatar" src="Cat.jpg">
+                </div>
+                <div class="profile">
+                    <p class="name">Kitten</p>
+                    <p class="nickname">Silly Cat</p>
+                    <p class="popularity">Popular</p>
+                </div>
+                <div class="button-follow">
+                    <button>Follow</button>
+                </div>
+            </div>
+            <div class="second-profile">
+                <div class="images">
+                    <img class="avatar" src="Kyotaka.jpg">
+                </div>
+                <div class="profile">
+                    <p class="name">Kyotaka Ayanokoji</p>
+                    <p class="nickname">I am X</p>
+                    <p class="popularity">Fictional character</p>
+                </div>
+                <div class="button-follow">
+                    <button>Follow</button>
+                </div>
+            </div>
+            <div class="third-profile">
+                <div class="images">
+                    <img class="avatar" src="Dodge.jpg">
+                </div>
+                <div class="profile">
+                    <p class="name">Doge</p>
+                    <p class="nickname">Shiba Dog</p>
+                    <p class="popularity">Popular meme</p>
+                </div>
+                <div class="button-follow">
+                    <button>Follow</button>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
